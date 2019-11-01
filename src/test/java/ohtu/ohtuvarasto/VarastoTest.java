@@ -112,7 +112,7 @@ public class VarastoTest {
 
         double saatuMaara = varasto.otaVarastosta(9.0);
 
-        assertEquals(8.0, saatuMaara, vertailuTarkkuus);
+        assertEquals(8.9, saatuMaara, vertailuTarkkuus);
     }
     @Test
     public void ottaminenPalauttaaOikeanMaaran4() {
